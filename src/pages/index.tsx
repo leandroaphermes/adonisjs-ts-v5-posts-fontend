@@ -8,9 +8,9 @@ const Home: NextPage = () => {
   console.log(mockPost);
 
   return (
-    <div>
+    <>
       <PostContainer {...mockPost} />
-    </div>
+    </>
   );
 };
 

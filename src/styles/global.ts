@@ -15,8 +15,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     ${({ theme }) => css`
-      transition: color ${theme.transition.slow},
-        background-color ${theme.transition.slow},
+      transition: background-color ${theme.transition.slow},
         box-shadow ${theme.transition.slow};
     `}
   }
@@ -27,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
       font-family: ${theme.font.family};
     }
 
+    html,
     body,
     #__next {
       height: 100%;

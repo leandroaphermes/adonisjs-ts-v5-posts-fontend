@@ -2,9 +2,16 @@ import styled, { css } from "styled-components";
 
 export const Wrapper = styled.article``;
 
+export const ContainerBanner = styled.div`
+  width: 100%;
+  height: 200px;
+  position: relative;
+`;
+
 export const WrapperHeader = styled.header`
   ${({ theme }) => css`
-    margin-bottom: ${theme.spacings.medium};
+    margin-top: ${theme.spacings.small};
+    margin-bottom: ${theme.spacings.small};
   `}
 `;
 

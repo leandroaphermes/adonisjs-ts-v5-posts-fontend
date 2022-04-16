@@ -1,5 +1,6 @@
 const base = {
   grid: {
+    wrapper: "120rem",
     container: "30rem",
     gutter: "1rem",
   },
@@ -68,8 +69,8 @@ export const dark: ThemeTypeColor = {
     text: "#CCC",
     textSecunday: "#666",
     textContraste: "#FEFEFE",
-    borderColor: "rgba(75,75,220,0.30)",
-    bodyBg: "#191010",
+    borderColor: "rgba(70,70,150,0.30)",
+    bodyBg: "#181818",
     containerBg: "#34228a",
   },
 };
